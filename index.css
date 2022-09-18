@@ -32,10 +32,10 @@ p{
 .half-width img{
     width: 100%;
 }
+/* For Every section */
 section{
     height: 600px;
     padding: 100px;
-    border: solid red 10px;
 }
 .link-button{
     text-decoration: none;
@@ -49,8 +49,76 @@ section{
     background-image: url(image/biography-bg.png);
     background-repeat: no-repeat;
 }
+
+.work-heading{
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+}
+/* the 3 picture are same line. */
 .three-width{
-    width: 2%;
+    width: 25%;
     float:left;
-    padding-left: 5%;
+    margin-left: 5%;
+}
+/* Here every work picture set the width for setting on the section. */
+.three-width img{
+    width: 100%;    
+    margin: 10px;
+}
+.work{
+    background-image: url(image/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+
+/* -----client section---- */
+.client{
+    text-align: center;
+    background-image: url(image/footer-bg.png);
+    background-repeat: no-repeat;
+    padding: 50px 400px 150px 400px;    /* The padding makes the perfect shape of button(background colour). */
+}
+.client-head-highlight{
+    padding: 40px;
+    font-weight: bold;
+}
+/* client info */
+#client-name{
+    font-size: 18px;
+}
+#client-pro{
+    font-size: 15px;
+    color: rgb(125, 124, 124);
+}
+/* client-statement. paragraph */
+#client-state{
+    font-size: 18px;
+    padding: 30px;
+}
+/* For Email button */
+.client-button{
+    border-radius: 10px;
+    text-decoration: none;
+    color:white;
+    background-color:  rgb(231,84,128);
+    padding: 30px;
+    background-image: linear-gradient(45deg, rgb(239, 97, 140),rgb(207, 42, 91) );     /* here colour will dark to light */
+    margin-top: 50px;     /* making a gap between statement and button. */
+}  
+#client-link{
+    text-decoration: none;
+    color: white;  
+}
+
+/* the highlighted email section */
+#email{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+footer{
+    text-align: center;
+    color: rgb(114, 108, 108);
+    padding: 30px;
 }
